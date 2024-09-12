@@ -1,11 +1,9 @@
-import Carousel from "./components/carousel";
+import React from 'react';
 
-
-function Home() {
-  return (
-    <>
-    <Carousel/>
-    <footer className="bg-[#f0f0f0]">
+const shop = () => {
+    return (
+        <div>
+           <footer className="bg-[#f0f0f0]">
       <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 mt-[7vh]  py-10 md:grid-cols-2 xl:flex justify-around xl:px-10 ">
         <div className="max-w-sm">
           <div className="mb-6 flex h-12 items-center space-x-2">
@@ -107,10 +105,10 @@ function Home() {
             <div className="mb-4">
               <input
                 type="email"
-                className="focus:outline mb-2 block h-14 w-fulltext-base font-light border-b-2 w-full bg-[#f0f0f0] px-4 sm:w-80 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                className="focus:outline mb-2 block h-14 text-base font-light border-b-2 w-full bg-[#f0f0f0]  px-4 sm:w-80 focus:outline-none focus:ring-1 focus:ring-blue-600"
                 placeholder="Enter your email"
               />
-              <button className="block rounded-full  mt-5 bg-black px-11 py-3 font-medium text-white hover:bg-[#e4553f] duration-500">
+              <button className="block rounded-full mt-5 bg-black px-11 py-3 font-medium text-white hover:bg-[#e4553f] duration-500">
                 Subscribe
               </button>
             </div>
@@ -126,14 +124,9 @@ function Home() {
         </div>
       </div>
     </footer>
-    </>
-  );
-}
+          
+        </div>
+    );
+};
 
-export default Home;
-
-
-
-
-
-
+export default shop;
