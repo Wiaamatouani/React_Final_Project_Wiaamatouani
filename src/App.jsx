@@ -6,7 +6,9 @@ import Shop from "./pages/components/shop";
 import Blog from "./pages/components/blog";
 import About from "./pages/components/about";
 import Contact from "./pages/components/contact";
-import Navbar from "./layouts/Navbar"
+import Features from "./pages/components/features";
+import Navbar from "./layouts/Navbar";
+
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      
+      <Route path="/features" element={<Features />}/>
+     
+
       
 
     </Routes>

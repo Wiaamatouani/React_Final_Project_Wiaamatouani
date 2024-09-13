@@ -26,10 +26,10 @@ const Navbar = () => {
       <li class="lg:mr-12"><Link to="/" class="roundedmd px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">Home</Link></li>
       <li class="lg:mr-12"><Link to="/shop" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600" href="#">Shop</Link></li>
       <li class="lg:mr-12"><a class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600" href="#"> Sale</a></li>
-      <li class="lg:mr-12"><a class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">Features</a></li>
+      <li class="lg:mr-12"><Link to="features" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">Features</Link></li>
       <li class="lg:mr-12"><Link to="blog" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#"> Blog</Link></li>
       <li class="lg:mr-12"><Link to="about" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">About</Link></li>
-      <li class="lg:mr-12"><Link to="/contact" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#"> Contact</Link></li>
+      <li class="lg:mr-12"><Link to="contact" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#"> Contact</Link></li>
     </ul>
     <hr class="mt-4 w-full lg:hidden" />
     <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">

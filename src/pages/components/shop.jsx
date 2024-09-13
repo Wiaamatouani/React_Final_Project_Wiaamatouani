@@ -1,8 +1,21 @@
 import React from 'react';
-
+import Shop from "../../assets/images/shop.png"
 const shop = () => {
     return (
         <div>
+           <div>
+                <img src={Shop} alt="" />
+            </div>
+            <div>
+
+<div>
+  
+</div>
+
+
+
+            </div>
+            <div className='h-[40vh]'></div>
            <footer className="bg-[#f0f0f0]">
       <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 mt-[7vh]  py-10 md:grid-cols-2 xl:flex justify-around xl:px-10 ">
         <div className="max-w-sm">

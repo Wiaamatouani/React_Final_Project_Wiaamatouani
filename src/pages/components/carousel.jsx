@@ -18,21 +18,32 @@ function Carousel() {
     slidesToScroll: 1
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container ">
       <Slider {...settings}>
-        <div className="Relative">
-         <img src={Crsl1} alt="" />
-         <div className="absolute">
-            <h6>Women Collection 2018</h6>
-            <h1>NEW ARRIVALS</h1>
-            <button>SHOP NOW</button>
+        <div className="relative">
+         <img className="h-[80vh]" src={Crsl1} alt="" />
+         <div className="absolute   p-20 top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h1 className=" font-light text-2xl p-2 text-white ">Women Collection 2018</h1>
+          <h1 className=" text-7xl text-white p-3 font-bold ">NEW ARRIVALS</h1>
+          <button className=" rounded-full  mt-5 bg-white p-3 px-11 py-3 font-medium text-black">SHOP NOW</button>
+         </div>
+         
+        </div>
+        <div className="relative">
+        <img className="h-[80vh]" src={Crsl2} alt="" />
+        <div className="absolute   p-20 top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h1 className=" font-light text-2xl p-2 text-white ">Women Collection 2018</h1>
+          <h1 className=" text-7xl text-white p-3 font-bold ">NEW ARRIVALS</h1>
+          <button className=" rounded-full  mt-5 bg-white p-3 px-11 py-3 font-medium text-black">SHOP NOW</button>
          </div>
         </div>
-        <div>
-        <img src={Crsl2} alt="" />
-        </div>
-        <div>
-        <img src={Crsl3} alt="" />
+        <div className="relative">
+        <img className="h-[80vh]" src={Crsl3} alt="" />
+        <div className="absolute   p-20 top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h1 className=" font-light text-2xl p-2 text-white ">Women Collection 2018</h1>
+          <h1 className=" text-7xl text-white p-3 font-bold ">NEW ARRIVALS</h1>
+          <button className=" rounded-full  mt-5 bg-white p-3 px-11 py-3 font-medium text-black">SHOP NOW</button>
+         </div>
         </div>
        
       </Slider>

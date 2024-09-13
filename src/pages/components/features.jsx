@@ -1,65 +1,11 @@
 import React from 'react';
-import Blog from "../../assets/images/blog.png"
-import Blog1 from "../../assets/images/blog-01.jpg"
-import Blog2 from "../../assets/images/blog-02.jpg"
-import Blog3 from "../../assets/images/blog-03.jpg"
-const blog = () => {
+import Features from "../../assets/images/features.png"
+const features = () => {
     return (
         <div>
-            <div>
-                <img src={Blog} alt="" />
-            </div>
-            <div className='flex-row flex gap-3'>
-            <div className='flex-col pt-16 pl-32'>
-                <div >
-                    <div className='overflow-hidden w-[55vw]'>
-                         <img  className='w-[100%] h-[100%] hover:scale-110 duration-500 ' src={Blog1} alt="" />
-                         </div>
-                   
-                    <h1 className='text-3xl p-5   hover:text-red-700 font-normal'>The White Sneakers Nearly Every Fashion Girls Own</h1>
-                    <p className='font-light pl-6  text-[#97888f]'>by fashe-theme Admin |
-                       <span className='text-[#666666]   hover:text-red-700 font-normal'>crafts, street style</span>  |
-                        0 Comments</p>
-                    <p className='text-[#97888f]  pl-6 p-4 w-[50vw]'>
-                        Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-                    </p>
-                    <h1 className=' pl-6 pb-14 text-[#97888f] text-lg font-light'>Continue Reading </h1>
-                </div>
-                <div><div className='overflow-hidden w-[55vw]'>
-                         <img  className='w-[100%] h-[100%] hover:scale-110 duration-500 ' src={Blog2} alt="" />
-                         </div>
-                <h1 className='text-3xl p-5 hover:text-red-700 font-normal'>The White Sneakers Nearly Every Fashion Girls Own</h1>
-                    <p className='font-light pl-6  text-[#97888f]'>by fashe-theme Admin |
-                       <span className='text-[#666666]  hover:text-red-700 font-normal'>crafts, street style</span>  |
-                        0 Comments</p>
-                    <p className='text-[#97888f]  pl-6 p-4 w-[50vw]'>
-                        Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-                    </p>
-                    <h1 className=' pl-6 pb-14 text-[#97888f] text-lg font-light'>Continue Reading </h1>
-                </div>
-                <div>
-                <div className='overflow-hidden w-[55vw]'>
-                         <img  className='w-[100%] h-[100%] hover:scale-110 duration-500 ' src={Blog3} alt="" />
-                         </div>
-                <h1 className='text-3xl p-5 font-normal hover:text-red-700'>The White Sneakers Nearly Every Fashion Girls Own</h1>
-                    <p className='font-light pl-6  text-[#97888f]'>by fashe-theme Admin |
-                       <span className='text-[#666666] font-normal  hover:text-red-700'>crafts, street style</span>  |
-                        0 Comments</p>
-                    <p className='text-[#97888f]  pl-6 p-4 w-[50vw]'>
-                        Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-                    </p>
-                    <h1 className=' pl-6 pb-14 text-[#97888f] text-lg font-light'>Continue Reading </h1>
-                </div>
-
-            </div >
-            <div className='flex-col'> 
-                <input type="text" className='p-4 m-16 ml-14 font-light text-gray-500 border rounded-full w-[18vw] flex h-[6vh]' placeholder='Search all articles... ' /> 
-                  div*
-                </div>
-           
-
-            </div>
-            <footer className="bg-[#f0f0f0]">
+            <div><img src={Features} alt="" /></div>
+            <div className='h-[20vh]'></div>
+            <footer className="bg-[#f0f0f0] m-0">
       <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 mt-[7vh]  py-10 md:grid-cols-2 xl:flex justify-around xl:px-10 ">
         <div className="max-w-sm">
           <div className="mb-6 flex h-12 items-center space-x-2">
@@ -180,10 +126,8 @@ const blog = () => {
         </div>
       </div>
     </footer>
-          
         </div>
-        
     );
 };
 
-export default blog;
+export default features;
