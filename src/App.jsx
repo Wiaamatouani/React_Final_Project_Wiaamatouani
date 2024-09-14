@@ -9,6 +9,7 @@ import Contact from "./pages/components/contact";
 import Features from "./pages/components/features";
 import Navbar from "./layouts/Navbar";
 import Describblog from "./pages/components/describblog";
+import Profile from "./pages/components/Profile";
 
 
 
@@ -24,7 +25,8 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/features" element={<Features />}/>
      <Route path="/describlog" element={< Describblog />} />
-
+     <Route path="/profile" element={<Profile/>}/>
+     
       
 
     </Routes>

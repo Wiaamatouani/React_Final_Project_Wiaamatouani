@@ -2,8 +2,10 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png.webp"
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  let navigate = useNavigate();
     return (
         <>
         <header class="text-slate-700 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
@@ -36,13 +38,11 @@ const Navbar = () => {
    
             <div>
                 
-                <div className="h-8 w-8 p-1 mr-3 rounded-full bg-black"></div>
+                <div onClick={() => {navigate("/profile")}} className="h-8 w-8 p-1 mr-3 rounded-full bg-black"></div>
                
               </div>
-              <button type="button" class="  p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2  border-[black] focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
-                </svg>
+              <button  type="button" class="  p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2  border-[black] focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+              <svg   onClick={() => {navigate("/profile")}} class="h-8 w-8 text-gray-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="9" cy="21" r="1" />  <circle cx="20" cy="21" r="1" />  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" /></svg>
               </button>
 
 
