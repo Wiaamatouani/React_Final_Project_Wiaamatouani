@@ -61,7 +61,7 @@ const Shop = () => {
                 <select
                     name="first"
                     id="first"
-                    className='py-4 border-2 w-[200px] border-black'
+                    className='py-4 border-2 w-[300px] border-black'
                     value={selectedDropdownType}
                     onChange={handleDropdownChange}
                 >
