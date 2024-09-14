@@ -20,7 +20,7 @@ function Carousel() {
     slidesToScroll: 1
   };
   return (
-    <div className="slider-container ">
+    <div className="slider-container  ">
       <Slider {...settings}>
         <div className="relative">
          <img className="h-[80vh]" src={Crsl1} alt="" />

@@ -41,8 +41,8 @@ const Navbar = () => {
                 <div onClick={() => {navigate("/profile")}} className="h-8 w-8 p-1 mr-3 rounded-full bg-black"></div>
                
               </div>
-              <button  type="button" class="  p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2  border-[black] focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-              <svg   onClick={() => {navigate("/profile")}} class="h-8 w-8 text-gray-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="9" cy="21" r="1" />  <circle cx="20" cy="21" r="1" />  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" /></svg>
+              <button  type="button" class="  p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2   focus:ring-white focus:ring-offset-2 ">
+              <svg   onClick={() => {navigate("/panier")}} class="h-8 w-8 text-gray-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="9" cy="21" r="1" />  <circle cx="20" cy="21" r="1" />  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" /></svg>
               </button>
 
 
