@@ -1,7 +1,5 @@
 import React from 'react';
-import Blog1 from "../../assets/images/blog-01.jpg"
-import Blog2 from "../../assets/images/blog-02.jpg"
-import Blog3 from "../../assets/images/blog-03.jpg"
+
 import image from '../../constant/image';
 import data from "../../json/product.json"
 import { useNavigate } from 'react-router-dom';
