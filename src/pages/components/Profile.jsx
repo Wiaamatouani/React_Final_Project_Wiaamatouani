@@ -34,15 +34,7 @@ const Profile = () => {
             <p className="text-lg font-LIGHT text-gray-500">
                 I am a returning customer
             </p>
-            {loginMessage && (
-                <p
-                    className={`text-center mb-4 ${loginMessage.includes("successful")
-                            ? "text-green-500"
-                            : "text-red-500"
-                        }`}>
-                    {loginMessage}
-                </p>
-            )}
+          
             <form
                 action=""
                 
