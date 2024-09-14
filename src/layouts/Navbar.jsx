@@ -24,7 +24,15 @@ const Navbar = () => {
     </svg>
   </label>
   <nav aria-label="Header Navigation" class="peer-checked:pt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
-   
+    <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
+      <li class="lg:mr-12"><Link to="/" class="roundedmd px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">Home</Link></li>
+      <li class="lg:mr-12"><Link to="/shop" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600" href="#">Shop</Link></li>
+      <li class="lg:mr-12"><a class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600" href="#"> Sale</a></li>
+      <li class="lg:mr-12"><Link to="features" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">Features</Link></li>
+      <li class="lg:mr-12"><Link to="/Blogest" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#"> Blog</Link></li>
+      <li class="lg:mr-12"><Link to="about" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#">About</Link></li>
+      <li class="lg:mr-12"><Link to="contact" class="rounded md px-2 py-2 text-base font-light text-black hover:text-red-600 " href="#"> Contact</Link></li>
+    </ul>
     <hr class="mt-4 w-full lg:hidden" />
     <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
    
