@@ -10,17 +10,19 @@ import Assecoires from "../assets/images/access.webp"
 import ndader from "../assets/images/ndader.webp";
 import Slider from "react-slick";
 import React from "react";
-import data from "../json/products.json"
+import data from "../json/product.json"
 import image from "../constant/image";
 import { GrFormPrevious } from 'react-icons/gr';
 import { MdOutlineNavigateNext } from 'react-icons/md';
 
-
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Home() {
+  let navigate = useNavigate();
  
+
   const sliderRef2 = React.useRef(null);
   const settings = {
     dots: true,
@@ -180,7 +182,7 @@ function Home() {
   
   <div class="group cursor overflow-hidden w-[28vw] h-[70vh]  ">
     <div >
-      <img src={image.Blog1} className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
+      <img src={image.Blog1}  onClick={() => {navigate("/Blogest")}}className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
     </div>
     <div class="flex-1 overflow-hidden bg-white ">
       <h1 className=' font-semibold hover:text-[#e65540] mb-3'>Black Friday Guide: Best Sales & Discount Codes</h1>
@@ -191,7 +193,7 @@ function Home() {
     </div>
     <div class="group cursor overflow-hidden w-[28vw] h-[70vh]  ">
     <div >
-      <img src={image.Blog2} className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
+      <img src={image.Blog2} onClick={() => {navigate("/Blogest")}} className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
     </div>
     <div class="flex-1 overflow-hidden bg-white ">
       <h1 className='font-semibold hover:text-[#e65540] mb-3'>The White Sneakers Nearly Every Fashion Girls Own</h1>
@@ -202,7 +204,7 @@ function Home() {
     </div>
     <div class="group cursor overflow-hidden w-[28vw]  h-[70vh] ">
     <div  className="overflow-hidden">
-      <img src={image.Blog3} className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
+      <img src={image.Blog3} onClick={() => {navigate("/Blogest")}} className='transform transition-transform duration-500 hover:scale-110 w-full h-[40vh] mb-3 overflow-hidden' />
     </div>
     <div class="flex-1 overflow-hidden bg-white ">
       <h1 className='font-semibold  hover:text-[#e65540] mb-3'>New York SS 2018 Street Style: By Annina Mislin</h1>
