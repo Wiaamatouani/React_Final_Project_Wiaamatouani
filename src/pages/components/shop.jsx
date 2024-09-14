@@ -129,29 +129,8 @@ const Shop = () => {
 
 
       <div>
-        <div className='flex flex-col gap-6 p-20'>
-          
-          <div className='flex-col p-4 flex'>
-            <h1 className='font-bold  p-4 text-3xl'>Pice</h1>
-            <h1 className=' font-light p-3'><input type="checkbox" name="salam" id="" /> blaack</h1>
-            <h1 className='font-light p-3'><input type="checkbox" name="salam" id="" /> gray</h1>
-            <h1 className='font-light p-3'><input type="checkbox" name="salam" id="" /> red</h1>
-          </div>
-          <div className='flex-col  p-4 flex'>
-            <h1 className='font-bold  p-4 text-3xl'>Size</h1>
-            <h1 className='font-light p-3'><input type="checkbox" id="" /> L</h1>
-            <h1 className='font-light p-3'><input type="checkbox" id="" /> M</h1>
-            <h1 className='font-light p-3'><input type="checkbox" id="" />S</h1>
-            <h1 className='font-light p-3'><input type="checkbox" id="" />XL</h1>
-          </div>
-          <input className='p-4 ml-10 font-light border w-[20vw]' type="text" placeholder='Search' />
-        </div>
-        <div>
-
        
-
-
-        </div>
+       
 
       
 
