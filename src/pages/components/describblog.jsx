@@ -14,9 +14,7 @@ const Describblog = () => {
 <div className='flex-row flex gap-3'>
             <div className='flex-col pt-16 pl-32'>
                 <div >
-                    <div className='overflow-hidden w-[55vw]'>
-                        <img onClick={() => { navigate("/describlog") }} className='w-[100%] h-[100%] hover:scale-110 duration-500 ' src={Blog1} alt="" />
-                    </div>
+                   
 
                     <h1 className='text-3xl p-5   hover:text-red-700 font-normal'>The White Sneakers Nearly Every Fashion Girls Own</h1>
                     <p className='font-light pl-6  text-[#97888f]'>by fashe-theme Admin |
